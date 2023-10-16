@@ -5,8 +5,11 @@ import Formvalidate from './component/Formvalidate';
 
 
 import Useobject from './component/useobject';
+import { useState } from 'react';
+import Ratingstar from './component/Ratingstar';
 
 function App() {
+
   return (
     <div className="App">
       {/* <Api/> */}
@@ -14,6 +17,7 @@ function App() {
       <Useobject/> */}
 
      <Formvalidate/>
+     <Ratingstar/>
     </div>
   );
 }

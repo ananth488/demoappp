@@ -36,6 +36,7 @@ console.log(isValid)
 }
 
     return(
+        <>
         <div className="container">
             <h1>Form Section</h1>
             <form className='form' onSubmit={Createuser}>
@@ -44,8 +45,12 @@ console.log(isValid)
              <input type="password" placeholder="Enter your password"></input>
              <input className="btn" type="submit" ></input>
              </form>
-
+         
+             
         </div>
+
+        
+        </>
     )
 }
 
